@@ -11,24 +11,24 @@
         
             
              
-          	<Tab x:Name="Estudiantes" Icon="">
+             <Tab Title="Estudiantes" x:Name="Estudiantes" Icon="">
             <ShellContent 
                           ContentTemplate="{DataTemplate views:StudentListPage}"                          
             />   </Tab> 
 		<ShellContent/>
-			<Tab x:Name="Materia" Icon="">
+			<Tab Title="Materia" x:Name="Materia" Icon="">
 
 				<ShellContent 
                           
                           ContentTemplate="{DataTemplate views:MateriaListPage}" 
                           />
 			</Tab>
-			<Tab x:Name="Sedes" Icon="">
+        <Tab Title="Sedes" x:Name="Sedes" Icon="">
             <ShellContent Title="Sedes"
 						   ContentTemplate="{DataTemplate views:SedeListPage}"
                 />
 			</Tab>
-			<Tab x:Name="Grado" Icon="">
+        <Tab Title="Grado" x:Name="Grado" Icon="">
 
 				<ShellContent Title="Grado"
                           
