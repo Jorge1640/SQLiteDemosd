@@ -11,22 +11,31 @@
         
             
              
-            <ShellContent Title="Estudiantes" 
+          	<Tab x:Name="Estudiantes" Icon="">
+            <ShellContent 
                           ContentTemplate="{DataTemplate views:StudentListPage}"                          
-                />
+            />   </Tab> 
 		<ShellContent/>
-            <ShellContent Title="Materia"
+			<Tab x:Name="Materia" Icon="">
+
+				<ShellContent 
                           
                           ContentTemplate="{DataTemplate views:MateriaListPage}" 
                           />
-        
+			</Tab>
+			<Tab x:Name="Sedes" Icon="">
             <ShellContent Title="Sedes"
 						   ContentTemplate="{DataTemplate views:SedeListPage}"
                 />
-        <ShellContent Title="Grado"
+			</Tab>
+			<Tab x:Name="Grado" Icon="">
+
+				<ShellContent Title="Grado"
                           
                           ContentTemplate="{DataTemplate views:GradoListPage}" 
-                          />
+                        />
+			</Tab>
+			
 
     </FlyoutItem>
 
